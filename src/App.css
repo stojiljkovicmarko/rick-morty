@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-image: url(images/WallpaperDog-17066461.jpg);
+  background-size: cover;
+  background-position: 0 0;
+  background-attachment: fixed;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  min-height: 630px;
+  background-color: rgba(0, 165, 190, 0.8);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-title {
+  /* color:rgba(0, 176, 199, 1); */
+  color: black;
+  text-shadow: 0 0 3px rgb(165, 210, 76), 0 0 5px rgb(165, 210, 76);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-text {
+  background-color: rgba(104, 81, 40, 1);
+  color: whitesmoke;
+  padding: 10px 15px;
+  border-radius: 10px;
 }
