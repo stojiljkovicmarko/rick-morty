@@ -10,20 +10,13 @@ body {
 
 }
 
-.card {
-  min-height: 630px;
-  background-color: rgba(0, 165, 190, 0.8);
-}
-
-.card-title {
-  /* color:rgba(0, 176, 199, 1); */
-  color: black;
-  text-shadow: 0 0 3px rgb(165, 210, 76), 0 0 5px rgb(165, 210, 76);
-}
-
-.card-text {
-  background-color: rgba(104, 81, 40, 1);
-  color: whitesmoke;
-  padding: 10px 15px;
-  border-radius: 10px;
+.headline {
+  margin: 20px auto;
+  font-weight: bold;
+  width: fit-content;
+  padding: 20px 30px;
+  background-color: rgb(171, 44, 87);
+  border: 2px solid rgb(171, 44, 87);
+  border-radius: 50px;
+  color: white
 }

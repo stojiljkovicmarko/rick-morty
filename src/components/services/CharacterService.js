@@ -11,7 +11,7 @@ export default class CharacterService {
                 throw new Error();
             }
         }).then(data => {
-            console.log(data.results);
+            //console.log(data.results);
             return {
                 results: data.results,
                 pageCount: data.info.pages
